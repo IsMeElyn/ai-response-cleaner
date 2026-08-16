@@ -1,0 +1,41 @@
+# Allow search engines and AI crawlers to access the website.
+
+User-agent: *
+Allow: /
+
+# Content usage signals
+Content-Signal: search=yes,ai-train=no,use=reference
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Microsoft / Bing
+User-agent: bingbot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# ByteDance
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://aiclean.elyn.my.id/sitemap.xml
